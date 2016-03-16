@@ -1,0 +1,23 @@
+{
+  "name": "cordova-file-association",
+  "version": "1.0.0",
+  "description": "File association plugin for cordova. Main purpose is to make possible to associate cordova app with file types well known or custom made. Currently it is for Android only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farynam/cordova-fileAssociation.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Marcin Faryna",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/farynam/cordova-fileAssociation/issues"
+  },
+  "homepage": "https://github.com/farynam/cordova-fileAssociation#readme"
+}
