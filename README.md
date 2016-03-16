@@ -1,5 +1,5 @@
 # cordova-fileAssociation
-File association plugin for cordova. Main purpose is to make possible to assciate cordova app with file types well known or custom made. Currently it is for Android only.
+File association plugin for cordova. Main purpose is to make possible to associate cordova app with file types well known or custom made. Currently it is for Android only.
 
 
 How to use it
