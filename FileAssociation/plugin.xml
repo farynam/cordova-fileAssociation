@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.mfitbs.fileassociation" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FileAssociation</name>
+    <js-module name="FileAssociation" src="www/FileAssociation.js">
+        <clobbers target="com.mfitbs.fileassociation"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="FileAssociation">
+                <param name="android-package" value="com.mfitbs.fileassociation.FileAssociation"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/FileAssociation.java"
+                     target-dir="src/com/mfitbs/fileassociation/FileAssociation"/>
+    </platform>
+</plugin>
