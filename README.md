@@ -70,13 +70,13 @@ How to use it
                     });
             };
   
-  //added to be sure that plgin is available
+  //added to be sure that plgin is available<br>
   document.addEventListener("resume", function () {
-                loadFromActivity();
+                fileAssociation();
             }, false);
 
             document.addEventListener("deviceready", function () {
-                loadFromActivity();
+                fileAssociation();
             }, false);
   
   5.Use well 
